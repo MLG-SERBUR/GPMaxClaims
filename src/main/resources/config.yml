@@ -1,0 +1,4 @@
+# Fallback limit used when a player has no griefprevention.maxclaims.<N> permission.
+# -1 uses GriefPrevention's MaximumNumberOfClaimsPerPlayer.
+# 0 means unlimited. Any positive value is an exact top-level claim count.
+default-max-claims: -1

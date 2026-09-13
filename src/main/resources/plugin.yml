@@ -1,0 +1,17 @@
+name: "${project.name}"
+main: "${project.groupId}.${project.artifactId}.${project.name}"
+version: "${project.version}"
+api-version: "${project.api-version}"
+author: GPAddons
+description: "${project.description}"
+depend:
+  - GriefPrevention
+commands:
+  gpmaxclaims:
+    description: Reload GPMaxClaims configuration.
+    usage: /<command> reload
+    permission: gpmaxclaims.admin
+permissions:
+  gpmaxclaims.admin:
+    description: Allows reloading GPMaxClaims configuration.
+    default: op
