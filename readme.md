@@ -2,6 +2,8 @@
 
 Per-rank total top-level claim counts for GriefPrevention legacy v16.
 
+**Download:** [GPMaxClaims.jar (latest release)](https://github.com/MLG-SERBUR/GPMaxClaims/releases/latest/download/GPMaxClaims.jar) — [All releases](https://github.com/MLG-SERBUR/GPMaxClaims/releases)
+
 Give ranks `griefprevention.maxclaims.<N>`, for example `griefprevention.maxclaims.1`.
 `0` and `griefprevention.maxclaims.*` mean unlimited.
 Highest numeric permission wins.
